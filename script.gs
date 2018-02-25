@@ -1,23 +1,21 @@
-// 1) Go https://script.google.com to create this new file
-
-
 var calendarsToSave = 
     [
       
-/* 2) add calendars you OWN or have FULL access to here. Go to Google Calendar> My calendar > Settings > copy the Secret URL
-/* Comma seperated list, no comma after the last one */
-      
+/* add calendars you OWN or have FULL access to here. Go to Google Calendar> My calendar > Settings > copy the Secret URL
+     
  "https://calendar.google.com/calendar/ical/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/basic.ics",
- "https://calendar.google.com/calendar/ical/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/basic.ics"
+ "https://calendar.google.com/calendar/ical/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/basic.ics",
  "https://calendar.google.com/calendar/ical/ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ/basic.ics"
+
+/* Comma seperated list, no comma after the last one */
     ]; 
 
 
-// 3) Create  folder in gdrive and copy the sring  in the URL after /folder/....
+// Create  folder in gdrive and copy the sring of random text from the URL after /folder/.... and insert here between quotes
 var folder = '____________________';  
 
 
-// 4) Final step - Add a trigger to auto run this. Click the magnifying glass icon above > Add New Trigger : Time-Driven | Every 12 Hours. Save project. 
+// Final step - Add a trigger to auto run this. Click the magnifying glass icon above > Add New Trigger : Time-Driven | Every 12 Hours. Save project. 
 // All of the output files will have the name basic.ics
 
 
